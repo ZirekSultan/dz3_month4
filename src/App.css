@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.todoBlock {
+  padding: 20px;
+  background-color: rgba(120, 35, 95, 0.3);
+}
+
+.todoBlock:nth-of-type(even) {
+  background-color: rgba(120, 35, 95, 0.1);
+}
+
+.todoBlock input {
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(255, 244, 251, 0.4);
+  border: none;
+  outline: none;
+}
+
+.todosBlock {
+  position: relative;
+  overflow-y: auto;
+  height: 100%;
+}
